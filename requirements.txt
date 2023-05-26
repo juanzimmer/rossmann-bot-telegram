@@ -3,7 +3,7 @@
 # platform: win-64
 flask==2.2.5
 inflection==0.5.1
-numpy==1.24.3
+numpy==1.21.6
 pandas==2.0.1
 pickleshare==0.7.5
 python==3.11.3
