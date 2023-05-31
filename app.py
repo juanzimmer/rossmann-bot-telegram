@@ -33,8 +33,8 @@ def send_message(chat_id, text):
 
 def load_dataset(store_id):
     #datasets
-    df10 = pd.read_csv('D:/comunidade_DS/repos/ds_em_producao/test.csv')
-    df_store_raw = pd.read_csv('D:/comunidade_DS/repos/ds_em_producao/store.csv')
+    df10 = pd.read_csv('test.csv')
+    df_store_raw = pd.read_csv('store.csv')
 
     #merge test + store
     df_test = pd.merge(df10, df_store_raw, how='left', on='Store')
@@ -61,7 +61,7 @@ def load_dataset(store_id):
 def predict(data):
 
     #API Call
-    url = 'https://rossmann.herokuapp.com/rossmann/predict'
+    url = 'NOVO LINK DO RENDER WEBAPP'
     header = {'content-type': 'application/json'}
     data = data
 

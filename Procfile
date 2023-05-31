@@ -1,1 +1,1 @@
-web: gunicorn rossmann-bot:rossmann-bot
+web: gunicorn app:app
